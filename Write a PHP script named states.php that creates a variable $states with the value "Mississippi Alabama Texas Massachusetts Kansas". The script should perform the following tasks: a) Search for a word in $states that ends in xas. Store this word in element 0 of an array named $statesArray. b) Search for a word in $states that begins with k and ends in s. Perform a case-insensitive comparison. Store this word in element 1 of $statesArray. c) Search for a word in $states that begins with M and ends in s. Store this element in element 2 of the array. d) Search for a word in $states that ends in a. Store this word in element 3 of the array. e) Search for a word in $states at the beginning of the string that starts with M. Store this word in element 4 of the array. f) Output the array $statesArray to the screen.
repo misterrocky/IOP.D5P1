@@ -1,0 +1,46 @@
+<?php
+
+$states = "Mississippi Alabama Texas Massachusetts Kansas"
+
+$statesArray = [];
+
+$statesIn = explode(' ',$states);
+
+foreach($statesIn as $mystates){
+
+if(preg_match('/xas$/', ($MYstates)))
+
+$statesArray[0] = ($mystates);
+
+}
+
+foreach($statesIn as $states2) {
+
+if(preg_match ('/^k.*s$/i', (mystates2)))
+
+$statesArray[1] = ($mystates2);
+
+}
+
+foreach($statesIn as $mystates3){
+
+$statesArray[2] = (mystates3);
+
+}
+
+foreach($statesIn as $mystates4) {
+
+if(preg_match('/a$/', (mystates4)))
+
+$statesArray[3] = (mystates4);
+
+}
+
+foreach($statesArray as $element => $value){
+
+print($value. "is the element" . $element. "n")
+
+}
+
+?>
+
